@@ -1,14 +1,3 @@
-// TODO: Support for flags like `-n` (number lines), `-e` (show `$` at end of lines)
-
-// TODO: Support reading from stdin (`./peek -`) and pipes (`echo "hello" | ./peek`)
-
-// TODO: Configurable buffer size
-
-// TODO: Add logging for verbose output
-
-// TODO: Add unit tests
-// TODO: Add docs
-
 #include "io.h"
 #include "config.h"
 
