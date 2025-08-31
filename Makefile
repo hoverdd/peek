@@ -41,5 +41,11 @@ test_runner: $(OBJ) $(TESTS_OBJ)
 test: test_runner
 	./test_runner
 
+install: all
+	cp $(PROGRAM_NAME) /usr/local/bin
+
+uninstall:
+	rm -f /usr/local/bin/$(PROGRAM_NAME)
+
 clean:
 	rm -rf build $(PROGRAM_NAME) test_runner
