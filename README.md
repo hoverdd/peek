@@ -49,8 +49,6 @@ make test
 
 
 # Future improvements
-- Support for flags like `-n` (number lines), `-e` (show `$` at end of lines)
-
 - Support reading from stdin (`./peek -`) and pipes (`echo "hello" | ./peek`)
 
 - Configurable buffer size
