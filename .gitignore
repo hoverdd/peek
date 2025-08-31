@@ -1,0 +1,30 @@
+# object files
+*.o
+*.obj
+
+# binary files
+*.out
+*.exe
+*.a
+*.so
+*.dll
+*.dylib
+
+# build folders
+/build/
+/bin/
+/Debug/
+/Release/
+
+*.tmp
+*.temp
+
+# Логи
+*.log
+
+# IDE and editors
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
