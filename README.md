@@ -13,12 +13,15 @@ A simple C-based CLI utility to display file contents, similar to Unix `cat`.
 - Works with text and binary files
 - Handles non-existent files gracefully
 - Buffered reading for efficient output
+- Support for flags like `-n` (number lines), `-e` (show `$` at end of lines)
 
 ---
 
 
 ## Build
 ```bash
+git clone https://github.com/hoverdd/peek.git
+cd peek
 make
 ```
 
