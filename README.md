@@ -51,6 +51,3 @@ make test
 - Support reading from stdin (`./peek -`) and pipes (`echo "hello" | ./peek`)
 
 - Configurable buffer size
-
-- Add logging for verbose output
-
